@@ -1,19 +1,19 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
+    "name": "Erica General",
+    "role": "Fullstack Developer",
+    "linkedinId": "Your LinkedIn Id",
     "skypeid": "Your skypeid",
     "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/erica-general-8b362389/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/egen03",
           "className":"fa fa-github"
         },
         {
@@ -23,19 +23,19 @@ let resumeData = {
         }
       ],
     "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
+    "address":"New York City",
     "website":"https://rbhatia46.github.io",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
+        "UniversityName":"Per Scholas",
+        "specialization":"Software Engineer",
+        "MonthOfPassing":"Sept",
         "YearOfPassing":"2020",
         "Achievements":"Some Achievements"
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
+        "UniversityName":"Hunter College",
+        "specialization":"Psychology",
         "MonthOfPassing":"Jan",
         "YearOfPassing":"2018",
         "Achievements":"Some Achievements"
@@ -63,10 +63,19 @@ let resumeData = {
         "skillname":"HTML5"
       },
       {
-        "skillname":"CSS"
+        "skillname":"CSS 3"
       },
       {
         "skillname":"Reactjs"
+      },
+      {
+        "skillname":"JavaScript"
+      },
+      {
+        "skillname":"Object-Oriented-Programming"
+      },
+      {
+        "skillname":"Restful-Api"
       }
     ],
     "portfolio":[
