@@ -33,7 +33,8 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/bgimage1.jpg) no-repeat top center;
+   /* background: #161415 url(../images/header-background.jpg) no-repeat top center; */
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -187,7 +188,9 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: yellow;
+   /* background-image: radial-gradient(circle at top center, rgb(235, 41, 254),rgb(185, 42, 217),rgb(134, 42, 180),rgb(84, 43, 142),rgb(33, 43, 105)); */
+   /* background-image: radial-gradient(circle at center center, rgb(213, 109, 39),rgb(29, 16, 5)); */
+   background: black;
    /* #2B2B2B */
    padding-top: 96px;
    padding-bottom: 66px;
@@ -237,7 +240,9 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   /* background-image: radial-gradient(circle at center center, rgb(213, 109, 39),rgb(29, 16, 5)); */
+   background-image: radial-gradient(circle at center center, rgb(71, 71, 71),rgb(8, 8, 8));
+   /* background: #fff; */
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -320,29 +325,30 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+   background: blue;  
+   /* background: #313131; */
    display: inline-block;
    height: 42px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
+/* .photoshop {
   	width: 60%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
+} */
+/* .illustrator {
   	width: 55%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
+} */
+/* .wordpress {
   	width: 50%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
-}
-.css {
+} */
+.css3 {
   	width: 90%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
@@ -372,62 +378,63 @@ ul#nav li.current a { color: #F06000; }
    -moz-animation: jquery 2s ease;
    -webkit-animation: jquery 2s ease;
 }
-@-moz-keyframes photoshop {
+ @-moz-keyframes photoshop {
   0%   { width: 0px;  }
   100% { width: 60%;  }
-}
-@-moz-keyframes illustrator {
+} 
+ @-moz-keyframes illustrator {
   0%   { width: 0px;  }
   100% { width: 55%;  }
-}
+} 
 @-moz-keyframes wordpress {
   0%   { width: 0px;  }
   100% { width: 50%;  }
-}
-@-moz-keyframes css {
+} 
+/* @-moz-keyframes css {
   0%   { width: 0px;  }
   100% { width: 90%;  }
-}
+}  */
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
+@-moz-keyframes css3 {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-webkit-keyframes html5 {
+
+@-webkit-keyframes reactjs {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes javascript {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
+}
+@-webkit-keyframes object-oriented-programming {
+  0%   { width: 0px;  }
+  100% { width: 84%;  }
+}
+@-webkit-keyframes restful-api {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+/* @-webkit-keyframes html5 {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}  */
+ @-webkit-keyframes jquery {
   0%   { width: 0px;  }
   100% { width: 50%;  }
-}
+} 
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: black;
+   /* background: #ebeeee; */
    padding-top: 90px;
    padding-bottom: 60px;
 }
